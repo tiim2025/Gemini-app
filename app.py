@@ -65,7 +65,7 @@ if api_key:
     
     # بناء النموذج مع التعليمات (System Instruction)
     model = genai.GenerativeModel(
-        model_name="gemini-1.5-pro", # نستخدم أقوى نموذج دائماً
+        model_name="gemini-1.5-flash", # نستخدم أقوى نموذج دائماً
         system_instruction=current_instruction 
     )
 
